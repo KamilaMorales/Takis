@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Vina Sans', sans-serif;
+}
+
+
+ header {
+  background-color:  #F29727;
+  text-align: center;
+}
+
+ .container {
+
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  
+}
+
+.nav {
+  background-color:#85EF47;
+  grid-column: 1/5;
+  
+
+}
+
+.nav ul {
+  margin: 20px 10px ;
+  display: flex;
+  justify-content: space-evenly;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  list-style: none;
+
+}
+
+.nav ul li a {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+ 
+
+.main {
+  background-color: #F2BE22;
+  grid-column: span 5;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.secion1 img {
+  margin-top: 30px;
+  } 
+
+.secion2 h1  {
+  padding: 80px 115px;
+  color: #FE0000;
+  font-size: 50px;
+   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+  
+}
+
+.secion2 button   {
+   margin-left: 200px;
+   width: 100px; 
+   height: 40px;
+   background-color: #FF5B00;
+   border-style: none;
+   border-radius: 20px;
+  } 
+
+
+.secion2 button a {
+   text-decoration: none;
+   color: white;
+  } 
+
+
+
+
+.footer {
+  background-color:#85EF47;
+  grid-column: 1/5;
+  display: flex;
+  justify-content: space-evenly;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px 0;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------*/
+body {
+  background-color: #F0DE36;
+}
+
+
+.main2  {
+ display: flex;
+ flex-wrap: wrap;
+
+ 
+ 
+}
+
+
+
+.card {
+ background-color: white;
+ margin: 10px 30px;
+ margin-bottom: 20px;
+ border: 1px solid #ccc;
+ border-radius: 10px;
+}
+
+
+
+.h3, .prf {
+ text-align: center;
+}
+
+
+.butt {
+   margin-left: 105px;
+   margin-bottom: 10px;
+   width: 60px; 
+   height: 20px;
+   color: white;
+   background-color: #FE0000;
+   border-style: none;
+   border-radius: 20px;
+}
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+.cont {
+display: flex;
+justify-content: space-between;
+background-color: #F49D1A;
+padding: 20px;
+}
+
+
+.article {
+background-color: #FFE15D;
+}
